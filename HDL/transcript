@@ -1,0 +1,53 @@
+# 
+# 
+# 
+# 
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {.\passive_alg_do.do}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 01:35:03 on Feb 25,2026
+# vlog -reportprogress 300 -svinputport=net -f run_list.txt 
+# -- Compiling module LOD_a
+# -- Compiling module rsr_top
+# -- Compiling module adder
+# -- Compiling module adder_sub
+# -- Compiling module bit_reverse
+# -- Compiling module d_ff
+# -- Compiling module fp_mul
+# -- Compiling module multiplier
+# -- Compiling module norm_l2_vec
+# -- Compiling module nr_iteration
+# -- Compiling module nr_pipeline_3iter
+# -- Compiling module passive_top_tb
+# -- Compiling module passive_top
+# ** Warning: passive_top.sv(68): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: passive_top.sv(70): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: passive_top.sv(72): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: passive_top.sv(187): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: passive_top.sv(189): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: passive_top.sv(192): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: passive_top.sv(194): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# -- Compiling module seed_generator
+# -- Compiling module twos_comp_1cycle
+# 
+# Top level modules:
+# 	adder_sub
+# 	multiplier
+# 	passive_top_tb
+# End time: 01:35:03 on Feb 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
