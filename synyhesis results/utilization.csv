@@ -1,0 +1,4 @@
+Name,CLB LUTs (1296000),CLB Registers (2592000),CARRY8 (162000),DSPs (9216),Bonded IOB (448),GLOBAL CLOCK BUFFERs (1008),
+system_top,9741,4961,909,984,1250,1,
+u_passive_top (passiv...,8829,4865,909,264,0,0,
+u_acc64 (ACC64),912,96,0,720,0,0,
